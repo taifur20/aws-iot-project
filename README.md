@@ -39,3 +39,15 @@ Copy to /usr/local
 <pre>
 sudo cp -R * /usr/local/
 </pre>
+
+That's it! To check Node.js is properly install and you have the right version, run the command
+<pre>node -v</pre>
+
+You need node onoff library for the working of sensor
+
+#onoff installation
+<pre>
+npm install onoff
+</pre>
+Details: https://www.npmjs.com/package/onoff
+
