@@ -45,7 +45,7 @@ That's it! To check Node.js is properly install and you have the right version, 
 
 You need node onoff library for the working of sensor
 
-#onoff installation
+#Installing onoff library
 <pre>
 npm install onoff
 </pre>
