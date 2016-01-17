@@ -51,3 +51,25 @@ npm install onoff
 </pre>
 Details: https://www.npmjs.com/package/onoff
 
+#Install RPi.GPIO library
+<pre>
+sudo apt-get update
+sudo apt-get -y install python-rpi.gpio
+</pre>
+
+#Installing paho-mqtt
+The latest stable version is available in the Python Package Index (PyPi) and can be installed using
+<pre>
+pip install paho-mqtt
+</pre>
+
+To obtain the full code, including examples and tests, you can clone the git repository:
+<pre>
+git clone git://git.eclipse.org/gitroot/paho/org.eclipse.paho.mqtt.python.git
+</pre>
+
+Once you have the code, it can be installed from your repository as well:
+<pre>
+cd org.eclipse.paho.mqtt.python
+python setup.py install
+</pre>
